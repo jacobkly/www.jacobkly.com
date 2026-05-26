@@ -1,48 +1,8 @@
 {
     "projects": [
         {
-            "name": "UHealth",
-            "description": "CNN-based pneumonia screening model with 92% accuracy with 2nd place hackathon standing",
-            "image": "/uhealth.png",
-            "tags": [
-                "Python",
-                "Flask",
-                "SQLite",
-                "Machine Learning",
-                "TensorFlow",
-                "Docker",
-                "Streamlit"
-            ],
-            "links": [
-                {
-                    "name": "Source",
-                    "href": "https://github.com/NickJordan-BE/UHealth",
-                    "icon": "github"
-                }
-            ]
-        },
-        {
-            "name": "BibleStudy.ai",
-            "description": "Mobile Bible app with personal chatbot to help study",
-            "image": "/biblestudy_ai.jpg",
-            "tags": [
-                "Python",
-                "FastAPI",
-                "Dart",
-                "Flutter",
-                "PostgreSQL"
-            ],
-            "links": [
-                {
-                    "name": "Source",
-                    "href": "https://github.com/jacobkly/biblestudy-ai",
-                    "icon": "github"
-                }
-            ]
-        },
-        {
             "name": "UMarket",
-            "description": "Marketplace for UW students to buy and sell second hand items",
+            "description": "A microservices marketplace for UW Tacoma students. Backend Lead managing 9 backend developers across 4 services. Architected the Supabase PostgreSQL schema and Google OAuth 2.0 auth, lifting team velocity by 30%.",
             "image": "/umarket.png",
             "tags": [
                 "TypeScript",
@@ -50,8 +10,10 @@
                 "Node.js",
                 "Express.js",
                 "PostgreSQL",
+                "Supabase",
                 "Docker",
-                "AWS S3"
+                "AWS S3",
+                "OAuth 2.0"
             ],
             "links": [
                 {
@@ -62,19 +24,86 @@
             ]
         },
         {
-            "name": "moviewatchers",
-            "description": "Proof-of-concept app scanning local storage (w/ permission) to organize and play videos through your browser",
-            "image": "/moviewatchers.png",
+            "name": "Grocery Store Management System",
+            "description": "Full-stack client/server transaction system for high-throughput retail. Handles 50,000+ daily insertions on a 4NF schema modeled with ER diagrams, raising query performance by 70%.",
+            "image": "/grocery_store.jfif",
             "tags": [
-                "Go",
                 "TypeScript",
                 "React",
-                "FFmpeg"
+                "Node.js",
+                "Microsoft SQL Server"
             ],
             "links": [
                 {
                     "name": "Source",
-                    "href": "https://github.com/jacobkly/moviewatchers",
+                    "href": "https://github.com/jacobkly/grocery-store",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "UHealth",
+            "description": "2nd place out of 17 teams at UHackathon. CNN pneumonia screening model trained on 5,000+ chest X-rays at 92% accuracy, plus a clinician-facing web app for upload and prediction.",
+            "image": "/uhealth.png",
+            "tags": [
+                "Python",
+                "Flask",
+                "Streamlit",
+                "SQLite",
+                "Machine Learning",
+                "TensorFlow",
+                "Docker"
+            ],
+            "links": [
+                {
+                    "name": "Source",
+                    "href": "https://github.com/NickJordan-BE/UHealth",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "UWealth",
+            "description": "Personal finance and stock-tracking dashboard with JWT auth and Alpha Vantage market data integration. Grew to 1,000+ users.",
+            "image": "/uwealth.jfif",
+            "tags": [
+                "JavaScript",
+                "React",
+                "Node.js",
+                "Express.js",
+                "PostgreSQL",
+                "JWT"
+            ],
+            "links": []
+        },
+        {
+            "name": "Christmas Trivia Maze",
+            "description": "Java Swing game built around a maze-of-rooms layout where each door unlocks via a trivia question.",
+            "image": "/maze.jfif",
+            "tags": [
+                "Java",
+                "Java Swing",
+                "SQLite"
+            ],
+            "links": [
+                {
+                    "name": "Source",
+                    "href": "https://github.com/jacobkly/christmas-trivia-maze",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Derivatives Calculator",
+            "description": "Symbolic derivative calculator built on the Shunting Yard algorithm. Parses arbitrary expressions and returns the derivative.",
+            "image": "/calculator.jfif",
+            "tags": [
+                "Java"
+            ],
+            "links": [
+                {
+                    "name": "Source",
+                    "href": "https://github.com/jacobkly/derivatives-calculator",
                     "icon": "github"
                 }
             ]

@@ -13,8 +13,30 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "Jacob's Portfolio",
-  description: "My personal site to showcase my developer work.",
+  metadataBase: new URL("https://jacobkly.com"),
+  title: "Jacob Klymenko",
+  description: "Software engineer building backend and cloud systems",
+  openGraph: {
+    title: "Jacob Klymenko",
+    description: "Software engineer building backend and cloud systems",
+    url: "https://jacobkly.com",
+    siteName: "Jacob Klymenko",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Jacob Klymenko — Software Engineer",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jacob Klymenko",
+    description: "Software engineer building backend and cloud systems",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
@@ -26,7 +48,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "mx-auto flex min-h-screen max-w-3xl flex-col px-8 font-sans antialiased pt-12",
+          "mx-auto flex min-h-screen w-full max-w-3xl flex-col px-6 pt-12 font-sans antialiased sm:px-8 lg:max-w-4xl lg:px-12 2xl:max-w-5xl 2xl:px-16 3xl:max-w-6xl",
           inter.variable,
           calistoga.variable,
         )}

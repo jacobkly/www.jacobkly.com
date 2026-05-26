@@ -1,19 +1,20 @@
 {
-    "skills": [
-        "TypeScript",
-        "Go",
-        "Python",
-        "Java",
-        "React",
-        "Next.js",
-        "Node.js",
-        "FastAPI",
-        "Flask",
-        "Flutter",
-        "PostgreSQL",
-        "Supabase",
-        "Docker",
-        "Git/GitHub",
-        "Machine Learning"
+    "categories": [
+        {
+            "name": "Languages",
+            "items": ["Python", "TypeScript", "JavaScript", "Go", "Java", "Dart", "SQL"]
+        },
+        {
+            "name": "Frameworks",
+            "items": ["FastAPI", "Node.js", "Express.js", "Flask", "React", "Next.js", "Flutter", "REST APIs"]
+        },
+        {
+            "name": "Databases",
+            "items": ["PostgreSQL", "Supabase", "Microsoft SQL Server", "SQLite"]
+        },
+        {
+            "name": "Tools",
+            "items": ["Microsoft Azure", "Docker", "Nginx", "Git/GitHub", "Stripe", "OAuth 2.0", "Machine Learning"]
+        }
     ]
 }

@@ -11,21 +11,19 @@ interface Props {
 }
 
 export function ProjectCard({ project }: Props) {
-    const { name, href, description, image, tags, links } = project;
+    const { name, description, image, tags, links } = project;
 
     return (
         <Card className="flex flex-col">
             <CardHeader>
                 {image && (
-                    <Link href={href || image}>
-                        <Image
-                            src={image}
-                            alt={name}
-                            width={500}
-                            height={300}
-                            className="h-40 w-full object-cover object-top"
-                        />
-                    </Link>
+                    <Image
+                        src={image}
+                        alt={name}
+                        width={500}
+                        height={300}
+                        className="h-40 w-full object-cover object-top"
+                    />
                 )}
             </CardHeader>
             <CardContent className="flex flex-col gap-2">

@@ -3,33 +3,34 @@
         {
             "name": "Junt Industries",
             "href": "https://www.juntindustries.com/",
-            "title": "Software Engineer (Intern)",
+            "title": "Full Stack Software Engineer",
             "logo": "/junt.png",
-            "start": "June 2025",
-            "end": "Sep. 2025"
-        },
-        {
-            "name": "University of Washgington",
-            "href": "https://www.washington.edu/",
-            "title": "Computer Science Grader",
-            "logo": "/uw.png",
-            "start": "Mar 2025",
-            "end": "June 2025",
+            "start": "Sep 2025",
             "description": [
-                "Evaluated Java projects on correctness and object-oriented design principles.",
-                "Constructed feedback to enhance student growth and code quality."
+                "Engineering the backend, cloud infrastructure, and platform services behind the OnSight Real Estate Platform on Azure."
             ]
         },
         {
-            "name": "University of Washgington",
+            "name": "Junt Industries",
+            "href": "https://www.juntindustries.com/",
+            "title": "Software Engineer Intern",
+            "logo": "/junt.png",
+            "start": "Jun 2025",
+            "end": "Sep 2025",
+            "description": [
+                "Designed the Azure cloud architecture and built FastAPI/PostgreSQL APIs for the OnSight consumer app. The architecture later scaled into the full multi-product OnSight SaaS platform."
+            ]
+        },
+        {
+            "name": "University of Washington Tacoma",
             "href": "https://www.washington.edu/",
             "title": "Software Engineer Researcher",
             "logo": "/uw.png",
             "start": "Jan 2025",
-            "end": "June 2025",
+            "end": "Jun 2025",
             "description": [
-                "Performed a Systematic Mapping Study on autonomous drone security as the first author, entered at an A-ranked software engineering conference.",
-                "Identified spoofing and network attacks as the primary threats, with machine learning emerging as the leading detection technique."
+                "First-authored a Systematic Mapping Study on autonomous drone security at the SESAIS lab, submitted to an A-ranked international software engineering conference.",
+                "Identified spoofing (86%) and network attacks (80%) as top threats, with 46% of detection methods using machine learning."
             ]
         }
     ]

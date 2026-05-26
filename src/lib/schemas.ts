@@ -34,3 +34,10 @@ export type Experience = z.infer<typeof experience>;
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
 export const socialSchema = z.object({ socials: z.array(iconLink) });
+
+const skillCategory = z.object({
+    name: z.string(),
+    items: z.array(z.string()),
+});
+export type SkillCategory = z.infer<typeof skillCategory>;
+export const skillsSchema = z.object({ categories: z.array(skillCategory) });

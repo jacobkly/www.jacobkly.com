@@ -1,15 +1,15 @@
 {
     "education": [
         {
-            "name": "University of Washington",
+            "name": "University of Washington Tacoma",
             "href": "https://www.washington.edu/",
             "title": "Bachelor of Science in Computer Science and Systems",
             "logo": "/uw.png",
             "start": "Sep 2023",
             "end": "Aug 2025",
             "description": [
-                "Co-founded Tech Start Up Club raising to 20+ members.",
-                "2-time recipient of the Annual Dean's Honor List."
+                "Graduated with a 3.94 GPA. Annual Dean's List (2023-2024 and 2024-2025).",
+                "Co-founded the Tech Startup Club, growing it to 20+ members."
             ]
         },
         {
@@ -20,7 +20,7 @@
             "start": "Sep 2021",
             "end": "Aug 2023",
             "description": [
-                "Graduated with President's Honor (4.0 GPA) as a running start student."
+                "Graduated with President's Honor Roll (4.0 GPA) as a running start student."
             ]
         }
     ]
