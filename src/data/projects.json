@@ -26,7 +26,7 @@
         {
             "name": "Grocery Store Management System",
             "description": "Full-stack client/server transaction system for high-throughput retail. Handles 50,000+ daily insertions on a 4NF schema modeled with ER diagrams, raising query performance by 70%.",
-            "image": "/grocery_store.jfif",
+            "image": "/grocery_store.png",
             "tags": [
                 "TypeScript",
                 "React",
@@ -65,7 +65,7 @@
         {
             "name": "UWealth",
             "description": "Personal finance and stock-tracking dashboard with JWT auth and Alpha Vantage market data integration. Grew to 1,000+ users.",
-            "image": "/uwealth.jfif",
+            "image": "/uwealth.png",
             "tags": [
                 "JavaScript",
                 "React",
@@ -79,7 +79,7 @@
         {
             "name": "Christmas Trivia Maze",
             "description": "Java Swing game built around a maze-of-rooms layout where each door unlocks via a trivia question.",
-            "image": "/maze.jfif",
+            "image": "/maze.png",
             "tags": [
                 "Java",
                 "Java Swing",
@@ -96,7 +96,7 @@
         {
             "name": "Derivatives Calculator",
             "description": "Symbolic derivative calculator built on the Shunting Yard algorithm. Parses arbitrary expressions and returns the derivative.",
-            "image": "/calculator.jfif",
+            "image": "/calculator.png",
             "tags": [
                 "Java"
             ],
