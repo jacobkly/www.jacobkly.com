@@ -1,7 +1,8 @@
-import { BackgroundGradientAnimation } from "@/components/ui/BackgroundGradientAnimation";
 import FadeInSection from "@/components/FadeInSection";
 import Footer from "@/components/Footer";
 import Providers from "@/components/Providers";
+import ThemeAwareBackground from "@/components/ThemeAwareBackground";
+import ThemeToggle from "@/components/ThemeToggle";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Calistoga, Inter } from "next/font/google";
@@ -56,13 +57,12 @@ export default function RootLayout({
         )}
       >
         <Providers>
-          <div className="pointer-events-none fixed inset-0 -z-10 hidden dark:block">
-            <BackgroundGradientAnimation containerClassName="fixed inset-0" />
-          </div>
+          <ThemeAwareBackground />
           <main className="grow">{children}</main>
           <FadeInSection delay={1.0}>
             <Footer />
           </FadeInSection>
+          <ThemeToggle />
         </Providers>
       </body>
     </html>

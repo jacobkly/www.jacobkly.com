@@ -15,7 +15,7 @@ export default function Skills() {
                         {category.items.map((skill) => (
                             <div
                                 key={skill}
-                                className="bg-gray-100 dark:bg-neutral-800 rounded-md px-3 py-1 text-sm text-center shadow-sm w-fit"
+                                className="rounded-md border bg-transparent px-3 py-1 text-sm text-center w-fit transition-transform duration-200 hover:scale-105"
                             >
                                 {skill}
                             </div>

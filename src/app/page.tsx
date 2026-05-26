@@ -37,8 +37,11 @@ export default async function Home() {
             priority
           />
           <div className="flex flex-col">
-            <h1 className="title text-5xl font-serif lg:text-6xl 3xl:text-7xl">
-              heyy jacob here 👋
+            <h1 className="group title text-5xl font-serif lg:text-6xl 3xl:text-7xl">
+              heyy jacob here{" "}
+              <span className="inline-block origin-[70%_70%] group-hover:animate-wave">
+                👋
+              </span>
             </h1>
             <p className="mt-2 font-medium lg:text-lg 3xl:text-xl">
               {getAge(JACOB_DOB)}
@@ -50,7 +53,10 @@ export default async function Home() {
 
             <section className="mt-8 flex items-center gap-8">
               <Link href="/jacob_klymenko_resume.pdf" target="_blank">
-                <Button variant="outline" className="cursor-pointer">
+                <Button
+                  variant="outline"
+                  className="cursor-pointer transition-transform duration-200 hover:scale-105"
+                >
                   <span className="font-semibold">Resume</span>
                   <FileDown className="ml-2 size-5" />
                 </Button>
