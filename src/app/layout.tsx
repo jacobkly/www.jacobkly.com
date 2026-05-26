@@ -1,4 +1,5 @@
 import { BackgroundGradientAnimation } from "@/components/ui/BackgroundGradientAnimation";
+import FadeInSection from "@/components/FadeInSection";
 import Footer from "@/components/Footer";
 import Providers from "@/components/Providers";
 import { cn } from "@/lib/utils";
@@ -46,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
           "mx-auto flex min-h-screen w-full max-w-3xl flex-col px-6 pt-12 font-sans antialiased sm:px-8 lg:max-w-4xl lg:px-12 2xl:max-w-5xl 2xl:px-16 3xl:max-w-6xl",
@@ -59,7 +60,9 @@ export default function RootLayout({
             <BackgroundGradientAnimation containerClassName="fixed inset-0" />
           </div>
           <main className="grow">{children}</main>
-          <Footer />
+          <FadeInSection delay={1.0}>
+            <Footer />
+          </FadeInSection>
         </Providers>
       </body>
     </html>
