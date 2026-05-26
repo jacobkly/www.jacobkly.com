@@ -43,7 +43,7 @@ export default async function Home() {
             yo software engineer from Washington
           </p>
           <p className="mt-8 max-w-sm lg:max-w-md lg:text-lg">
-            full stack dev by day, musician by night.
+            full stack swe by day, musician by night.
           </p>
 
           <section className="mt-8 flex items-center gap-8">

@@ -1,3 +1,4 @@
+import { BackgroundGradientAnimation } from "@/components/ui/BackgroundGradientAnimation";
 import Footer from "@/components/Footer";
 import Providers from "@/components/Providers";
 import { cn } from "@/lib/utils";
@@ -54,6 +55,9 @@ export default function RootLayout({
         )}
       >
         <Providers>
+          <div className="pointer-events-none fixed inset-0 -z-10 hidden dark:block">
+            <BackgroundGradientAnimation containerClassName="fixed inset-0" />
+          </div>
           <main className="grow">{children}</main>
           <Footer />
         </Providers>

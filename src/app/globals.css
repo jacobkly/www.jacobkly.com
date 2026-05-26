@@ -2,6 +2,30 @@
 
 @theme {
   --breakpoint-3xl: 1920px;
+
+  --animate-bga-first: bgaMoveVertical 30s ease infinite;
+  --animate-bga-second: bgaMoveInCircle 20s reverse infinite;
+  --animate-bga-third: bgaMoveInCircle 40s linear infinite;
+  --animate-bga-fourth: bgaMoveHorizontal 40s ease infinite;
+  --animate-bga-fifth: bgaMoveInCircle 20s ease infinite;
+}
+
+@keyframes bgaMoveHorizontal {
+  0% { transform: translateX(-50%) translateY(-10%); }
+  50% { transform: translateX(50%) translateY(10%); }
+  100% { transform: translateX(-50%) translateY(-10%); }
+}
+
+@keyframes bgaMoveInCircle {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes bgaMoveVertical {
+  0% { transform: translateY(-50%); }
+  50% { transform: translateY(50%); }
+  100% { transform: translateY(-50%); }
 }
 
 @layer base {
