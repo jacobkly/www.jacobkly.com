@@ -4,6 +4,6 @@ A clean, minimal, and mobile responsive portfolio website built with Next.js, Ta
 
 ## Live Demo
 
-🌐 Check it out here: **[https://www.jacobkly.com](https://www.jacobkly.com)**
+🌐 Check it out here: **[www.jacobkly.com](https://www.jacobkly.com)**
 
 ![Portfolio Screenshot](public/jacobkly-com.png)
