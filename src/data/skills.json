@@ -6,7 +6,7 @@
         },
         {
             "name": "Frameworks",
-            "items": ["FastAPI", "Node.js", "Express.js", "Flask", "React", "Next.js", "Flutter", "REST APIs"]
+            "items": ["FastAPI", "Node.js", "Express.js", "React", "Next.js", "Flutter", "REST APIs"]
         },
         {
             "name": "Databases",
@@ -14,7 +14,7 @@
         },
         {
             "name": "Tools",
-            "items": ["Microsoft Azure", "Docker", "Nginx", "Git/GitHub", "Stripe", "OAuth 2.0", "Machine Learning"]
+            "items": ["Microsoft Azure", "Docker", "Nginx", "Git/GitHub", "Stripe", "Machine Learning"]
         }
     ]
 }
